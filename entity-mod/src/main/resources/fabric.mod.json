@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "entity",
+  "version": "${version}",
+  "name": "渲染合并",
+  "description": "同类实体渲染聚合 + 掉落物渲染合并。被合并的实体仍然正常 tick、碰撞与交互，只渲染一个代表实体并显示「名称 * 数量」。配置界面由 Cloth Config 生成。",
+  "authors": ["ZCL"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["io.zcl.entity.EntityMod"],
+    "modmenu": ["io.zcl.entity.compat.ModMenuIntegration"]
+  },
+  "mixins": ["entity.mixins.json"],
+  "depends": {
+    "minecraft": "${minecraft_dependency}",
+    "fabricloader": "${loader_dependency}",
+    "fabric-api": "*",
+    "cloth-config": "${cloth_config_dependency}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

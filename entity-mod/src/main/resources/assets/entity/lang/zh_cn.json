@@ -1,0 +1,7 @@
+{
+  "entity.entity_aggregation.baby": "小%s",
+  "entity.entity_aggregation.baby_cube": "幼年%s",
+  "entity.entity_aggregation.size.small": "小型%s",
+  "entity.entity_aggregation.size.medium": "中型%s",
+  "entity.entity_aggregation.size.large": "大型%s"
+}

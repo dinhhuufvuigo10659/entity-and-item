@@ -1,0 +1,7 @@
+{
+  "entity.entity_aggregation.baby": "Baby %s",
+  "entity.entity_aggregation.baby_cube": "Baby %s",
+  "entity.entity_aggregation.size.small": "Small %s",
+  "entity.entity_aggregation.size.medium": "Medium %s",
+  "entity.entity_aggregation.size.large": "Large %s"
+}
